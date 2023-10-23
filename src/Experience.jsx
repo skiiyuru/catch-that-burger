@@ -22,9 +22,9 @@ export default function Experience() {
 
     // Burger
     burger.current.position.x =
-      Math.cos(angle) * (5 + Math.sin(elapsedTime * 0.32))
+      Math.cos(angle) * (8 + Math.sin(elapsedTime * 0.32))
     burger.current.position.z =
-      Math.sin(angle) * (5 + Math.sin(elapsedTime * 0.5))
+      Math.sin(angle) * (8 + Math.sin(elapsedTime * 0.5))
     burger.current.position.y =
       Math.sin(elapsedTime * 0.75 * 5) * Math.cos(angle)
 
@@ -68,7 +68,7 @@ export default function Experience() {
             fontSize={2}
             color={"salmon"}
             font="./bangers-v20-latin-regular.woff"
-            position={[2, 0, -10]}
+            position={[2, 5, -7]}
             // maxWidth={2}
             textAlign="center"
           >
